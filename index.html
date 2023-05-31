@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike Store</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <header>
+    <nav class="header__nav">
+      <div class="header__logo">
+        <h4 data-aos="fade-down">Nike</h4>
+        <div class="header__logo-overlay"></div>
+      </div>
+
+        <ul class="header__menu" data-aos="fade-down">
+          <li>
+            <a href="#explore">Explore</a>
+          </li>
+          <li>
+            <a href="#trending">Trending</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about">About Us</a>
+          </li>
+
+          <li>
+            <img src="assets/search.svg" alt="Search">
+          </li>
+        </ul>
+
+        <ul class="header__menu-mobile" data-aos="fade-down">
+          <li>
+            <img src="assets/menu.svg" alt="">
+          </li>
+        </ul>
+      
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-image">
+       
+       <h2 data-aos="fade-up">
+         N <br/>
+         I <br/>
+         K <br/>
+         E <br/>
+       </h2>
+
+       <div class="hero-image__overlay">
+
+       </div>
+    </div>
+
+    <div class="hero-content">
+     <div class="hero-content-info" data-aos="fade-left">
+       <h1>Just DO IT.</h1>
+       <p>Welcome to Nike Store - where performance meets style. Explore our collection of high-quality athletic gear and unleash your full potential.</p>
+       <div class="hero-content__buttons">
+         <button class="hero-content__order-button">Order Now</button>
+         <button class="hero-content__play-button">
+           <img src="assets/play-circle.svg" alt="">
+           How to Order  
+         </button>
+       </div>
+     </div>
+
+     <div class="hero-content__testimonial" data-aos="fade-up">
+       <div class="hero-content__customer flex-center">
+         <h4>24<span>k+</span></h4>
+         <p>Happy Customers</p>
+       </div>
+
+       <div class="hero-content__review">
+         <img src="assets/user.png" alt="">
+         <p>
+          "Exceptional quality, stylish designs, and unbeatable performance. Highly recommend Nike Store!"</p>
+       </div>
+     </div>
+    </div>
+ </section>
+
+ <section class="about-us" id="about">
+  <div class="about-us__image">
+    <div class="about-us__image-nike">
+        <img src="assets/nike-retro.png" alt="" data-aos="fade-right">
+    </div>
+
+    <button class="about-us__button" onclick="window.location.href='https://about.nike.com/en/newsroom'">
+      Learn More
+
+      <img src="assets/arrow-up-right.svg" alt="" >
+    </button>
+
+    
+      <div class="about-us__image-nike2">
+          <img src="assets/nike-air1.png" alt="" data-aos="fade-right">
+      </div>
+  </div>
+
+  <div class="about-us__content" data-aos="fade-left">
+    <p class="nike__subtitle">About Us </p>
+    <h3 class="nike__title">Inspiring Athletes, Innovating Exceptional Experiences.</h3>
+    <p class="nike__description">Empowering athletes worldwide through innovative gear and exceptional experiences, our mission is to inspire greatness in every individual.</p>
+  </div>
+ 
+</section>
+
+<section class="explore-nike" id="explore">
+  <h2 class="explore-nike__title" data-aos="flip-up">Active Essentials</h2>
+  <div class="explore-nike__filters-nike__hide-scrollbar" data-aos="fade-up">
+    <button class="explore-nike__filter-btn active" onclick="window.location.href='https://www.nike.com/in/w?q=all&vst=all'">All</button>
+    <button class="explore-nike__filter-btn" onclick="window.location.href='https://www.nike.com/in/w?q=apparel&vst=apparel'">
+      <img src="assets/nike-air1.png" alt="">
+      Apparel
+    </button>
+    <button class="explore-nike__filter-btn" onclick="window.location.href='https://www.nike.com/in/w?q=running&vst=running'" >
+      <img src="assets/Nike-shoe2.png" alt="">
+      Running
+    </button>
+    <button class="explore-nike__filter-btn" onclick="window.location.href='https://www.nike.com/in/w?q=lifestyle&vst=lifestyle'">
+      <img src="assets/Nike-shoe.png" alt="">
+      Lifestyle
+    </button>
+    <button class="explore-nike__filter-btn" onclick="window.location.href='https://www.nike.com/in/w?q=accessories&vst=accessories'">
+      <img src="assets/nike-retro.png" alt="">
+      Accessories
+    </button>
+    <button class="explore-nike__filter-btn " onclick="window.location.href='https://www.nike.com/in/w?q=all&vst=all'">All</button>
+  </div>
+
+
+  <div class="explore-nike__catalogue" data-aos="fade-up">
+      <article class="explore-nike__card" 
+      
+       >
+        <img class="explore-nike__card-image" src="assets/nike-max1.png" alt="">
+        <h4 class="explore-nike__card-title">Nike Air Max 2023</h4>
+        <div class="explore-nike__card-details flex-between">
+          <div class="explore-nike__card-rating">
+            
+            <p>Footwear</p>
+          </div>
+          <p class="explore-nike__card-price">$129.99</p>
+        </div>
+      </article>
+      <article class="explore-nike__card active-card"
+       
+       >
+        <img class="explore-nike__card-image" src="assets/nike-tee1.png" alt="">
+        <h4 class="explore-nike__card-title">Nike Dri-FIT Training Tee</h4>
+        <div class="explore-nike__card-details flex-between">
+          <div class="explore-nike__card-rating">
+            
+            <p>Apparel</p>
+          </div>
+          <p class="explore-nike__card-price">$39.99</p>
+        </div>
+      </article>
+      <article class="explore-nike__card" 
+      
+      >
+        <img class="explore-nike__card-image" src="assets/nike-bag1.png" alt="">
+        <h4 class="explore-nike__card-title">Nike Heritage Backpack</h4>
+        <div class="explore-nike__card-details flex-between">
+          <div class="explore-nike__card-rating">
+            
+            <p>Accessories</p>
+          </div>
+          <p class="explore-nike__card-price"> $59.99</p>
+        </div>
+      </article>
+  </div>
+
+  <!-- <a href="https://www.nike.com/in/w/new-3n82y"> -->
+    <button class="explore-nike__button" onclick="window.location.href='https://www.nike.com/in/w/new-3n82y' " target="_blank">Explore More
+     <img src="assets/arrow-right.svg" alt="">
+    </button>
+  <!-- </a> -->
+
+</section>
+
+<section class="trending" id="trending">
+  <!-- START: trending Apparel -->
+  <section class="trending-nike">
+    <div class="trending__content" data-aos="fade-right">
+      <p class="nike__subtitle">What’s Trending </p>
+
+      <h3 class="nike__title">Nike Apparel</h3>
+      <p class="nike__description">
+        Unleash your style with Nike's cutting-edge athletic apparel collection.
+      </p>
+
+      <ul class="trending__list flex-between">
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nike Air Max 270 Sneakers</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nike Heritage Hip Pack
+
+          </p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nike Elite Basketball Socks</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nike Pro Sport Headband</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nike Fundamental Yoga Mat</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nike Brasilia Training Backpack</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="trending__image flex-center">
+      <img src="assets/nike-bag2.png" alt="nike-bag" data-aos="fade-left" />
+
+      <div class="trending__arrow trending__arrow-left">
+        <img src="assets/arrow-vertical.svg" alt="arrow-vertical" />
+      </div>
+
+      <div class="trending__arrow trending__arrow-bottom">
+        <img src="assets/arrow-horizontal.svg" alt="arrow-horizontal" />
+      </div>
+    </div>
+  </section>
+  <!-- END: trending Apparel -->
+
+  <!-- START: discover button -->
+  <a href="https://www.nike.com/in/w/jordan-clothing-37eefz6ymx6">
+  <div class="trending__discover" data-aos="zoom-in">
+    <p>Discover</p>
+  </div>
+</a>
+  <!-- END: discover button -->
+
+  <!-- START: trending Accessories -->
+  <section class="trending-Accessories">
+    <div class="trending__image flex-center">
+      <img src="assets/nike-jogger.png" alt="nike-jogger" data-aos="fade-right" />
+
+      <div class="trending__arrow trending__arrow-top">
+        <img src="assets/arrow-horizontal.svg" alt="arrow-horizontal" />
+      </div>
+
+      <div class="trending__arrow trending__arrow-right">
+        <img src="assets/arrow-vertical.svg" alt="arrow-vertical" />
+      </div>
+    </div>
+
+    <div class="trending__content" data-aos="fade-left">
+      <p class="nike__subtitle">What’s Trending </p>
+
+      <h3 class="nike__title">Nike Accessories</h3>
+      <p class="nike__description">
+        Elevate your look with Nike's diverse range of trendy accessories.
+      </p>
+
+      <ul class="trending__list flex-between">
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nike Air Jordan Retro Hoodie</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nike Dri-FIT Training Shorts</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nike Sportswear Tech Fleece Joggers</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nike Pro Compression Tights</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nike Dry Legend Training T-Shirt</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nike AeroSwift Running Jacket</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- END: trending Accessories -->
+</section>
+
+<section class="subscription flex-center" id="services">
+  <h2 data-aos="flip-down">Get offers Straight <br> to your inbox</h2>
+  <p data-aos="fade-up">Stay in the loop. Sign up for Nike's exclusive newsletter</p>
+
+
+  <div class="subscription__form" data-aos="fade-up">
+    <input type="text" placeholder="Enter your email address">
+    <button>Get Started</button>
+  </div>
+ </section>
+
+ <footer class="footer flex-between">
+  <h1 class="footer__logo">
+    <span>Nike</span>Store
+  </h1>
+
+  
+  <ul class="footer__nav" >
+    <li>
+      <a href="#menu">Explore</a>
+    </li>
+    <li>
+      <a href="#food">Trending</a>
+    </li>
+    <li>
+      <a href="#services">Services</a>
+    </li>
+    <li>
+      <a href="#about">About Us</a>
+    </li>
+    </ul>
+
+    <ul class="footer__social">
+      <li class="flex-center">
+        <img src="assets/facebook.svg" alt="">
+      </li>
+      <li class="flex-center">
+        <img src="assets/instagram.svg" alt="">
+      </li>
+      <li class="flex-center">
+        <img src="assets/twitter.svg" alt="">
+      </li>
+    </ul>
+ </footer>
+
+  <script src="js/script.js" type="module"></script>
+
+</body>
+</html>
